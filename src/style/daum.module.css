@@ -1,0 +1,96 @@
+.event{
+    width: 100%;max-width: 1200px;height: auto;
+    padding: 3rem 1rem;margin: 1rem auto;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+.wrap{
+    width: 210px;
+    margin: 20px 7px 0 7px;
+}
+.event ul{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+.imgBox img{
+    border-radius: 8px;
+}
+.des dt{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 11px 5px;
+}
+.des dt img{
+    border-radius: 50%;
+    width: 24px;
+    aspect-ratio: auto 24 / 24;
+    height: 24px;
+}
+.title{
+    display: inline-block;
+    overflow: hidden;
+    max-width: 200px;
+    margin-bottom: 6px;
+    padding-top: 1px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;
+    vertical-align: top;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.content{
+    max-height: 40px;
+    line-height: 20px;
+    color: #444;
+    overflow: hidden;
+    font-weight: 500;
+    font-size: 16px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    letter-spacing: 0;
+    margin-bottom: 10px;
+}
+.play{
+    display: inline-block;
+    font-size: 13px;
+    line-height: 15px;
+    color: #888;
+}
+.playIcon{
+    font-size: 15px;
+    vertical-align: middle;
+    color: #888;
+}
+.time{
+    display: inline-block;
+    font-size: 13px;
+    line-height: 15px;
+    color: #888;
+}
+.moreBtn{
+    display: flex;
+    justify-content: center;
+}
+.moreBtn button{
+    cursor: pointer;
+    display: block;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 19px;
+    color: #3f3f3f;
+    text-align: center;
+    letter-spacing: 0;
+}
+.moreBtn button:hover{
+    text-decoration: underline;
+}
+.moreBtn span{
+    color: #000;
+}
+.moreBtn span b{
+    color: #7200da;
+}
